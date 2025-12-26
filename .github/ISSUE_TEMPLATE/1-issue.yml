@@ -1,0 +1,45 @@
+name: "\U0001F6A8 Technical issue"
+description: When you're experiencing problems using AlcamelNvim 
+body:
+  - type: input
+    id: os
+    attributes:
+      label: Operating system
+      description: Your Linux distribution (can be shown by `lsb_release -a`).
+      placeholder: e.g. Ubuntu 24.04
+    validations:
+      required: true
+  
+  - type: textarea
+    id: steps
+    attributes:
+      label: Steps to Reproduce
+      description: Steps to reliably reproduce the issue.
+    validations:
+      required: false
+
+  - type: textarea
+    id: summary
+    attributes:
+      label: Description
+      description: A clear and concise description of your issue.
+    validations:
+      required: true
+
+  - type: textarea
+    id: log
+    attributes:
+      label: Nvim log
+      description: The logfile of Nvim (usually `~/.local/share/nvim/log`).
+
+      render: shell
+    validations:
+      required: true
+
+  - type: textarea
+    id: screenshot
+    attributes:
+      label: Screenshots (optional)
+      description: Screenshots that might help to make the problem more clear.
+    validations:
+      required: false
