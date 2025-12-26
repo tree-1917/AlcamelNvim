@@ -42,3 +42,8 @@ luac.out
 # Resources 
 *.yml
 *.yaml
+lua/Scripts/assets/*
+lua/Scripts/temps/*
+
+!lua/Scripts/assets/Readme.md
+!lua/Scripts/temps/Readme.md
