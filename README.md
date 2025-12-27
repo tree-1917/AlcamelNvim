@@ -41,6 +41,7 @@
 - [ ] LSP configuration 
 - [ ] Formatting & Linting Tools 
 - [ ] Treesitter integration 
+- [ ] Arabic Support 
 
 ## How To Use 
 
