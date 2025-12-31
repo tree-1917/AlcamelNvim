@@ -3,7 +3,7 @@
 -- ==========================================
 local activeScripts = {
   "Scripts.copyWhole", 
-  "Scripts.writeContent",
+  "Scripts.writeTemplate",
 }
 
 for _, script_name in ipairs(activeScripts) do 
